@@ -1,0 +1,80 @@
+body{
+    /* background-color: black; */
+    background-color: black;
+    background-image: url("../img/estudio/_DSC5982.jpg"); 
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    
+}
+#turra{
+    color: rgb(183, 183, 184);
+}
+.container{
+    background-color: rgba(204, 204, 204, 0.212);
+    width: 75%;
+    min-width: 700px;
+    
+}
+.featurettes{
+    flex: content;
+    margin-top: 20px;
+    
+    background-color: black;
+    width: 100%;    
+    margin: auto;
+    padding: 20px;
+}
+.featurette-heading, .lead, .featurette-divider{
+    color: beige;
+    margin: 20px;
+}
+.lead{
+    font-size: 1em;
+    line-height: 25px;
+}
+.form-text, .form-label, .form-check-label{
+    color:white;
+}
+form{
+    margin: 20px;
+    padding: 10px;
+}
+
+/* MEDIA QUERY------------------*/
+@media screen and (max-width: 800px) {
+
+    /* Container GENERAL*/
+    .container{
+    width: 95%;
+    min-width: 0px;
+    }
+
+    /*Seccion textos*/
+    .featurette-heading, .lead, .featurette-divider{
+        text-align: left;
+        color: beige;
+        margin: 5px;
+        width: 100%;
+        line-height: 25px;
+       
+    }
+
+
+    /* Textos de las musicos*/
+    .col-8{
+        width: 100%;
+    }
+    .lead{
+        text-align: justify;
+        font-size: 0.8em;
+        line-height: 17px;
+    }
+
+    .spoty{
+        margin-bottom: 2em;
+        padding-bottom: 2em;
+    }
+
+}
